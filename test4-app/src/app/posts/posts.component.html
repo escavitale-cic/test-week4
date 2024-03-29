@@ -1,0 +1,16 @@
+
+<section class="my-5">
+    <div class="container overflow-hidden">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3" >
+            <div class="col mb-4" *ngFor="let post of posts">
+                <div class="card h-100 shadow border-0">
+                    <div class="card-body">
+                        <p class="card-title post-title fw-bold">{{post.title}}</p>
+                        <p class="card-text post-body">{{post.body}}</p>
+                        <a class="btn btn-primary" [routerLink]="['/post-detail',post.id]">View Details</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
