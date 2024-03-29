@@ -11,7 +11,7 @@ Requirement
 - Creazione Header con colore #ad2a37 e testo bianco (2.5rem)
 - Creazione Footer con colore #ad2a37 e testo nero (1.2rem);
 - Link in footer che apre direttamente il client presente sul pc per inviare mail. Testo bianco;
-- Utilizzare il modulo HttpClient per fare le richieste http (preferibilmente creando un service per ogni componente)..
+- Utilizzare il modulo HttpClient per fare le richieste http (preferibilmente creando un service per ogni componente).
 
 (1.2rem)
 
