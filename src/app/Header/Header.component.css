@@ -1,0 +1,25 @@
+.custom-navbar {
+background-color: #ad2a37;
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    flex: 1;
+    padding: 0 3rem;
+    font-size: 2.5rem;
+    color: white;
+    position: sticky;
+}
+
+.custom-navbar .navbar-brand {
+    margin: 0;
+    flex: 1;
+    color: white;
+}
+
+.custom-navbar form {
+    display: flex;
+    align-items: center;
+
+}
