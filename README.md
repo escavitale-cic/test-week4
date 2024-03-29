@@ -1,35 +1,27 @@
-# test-week4
+# Test
 
-Requirement
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
-- Ogni elemento della lista è presentato all’interno della card bootstrap con titolo e body
-- Il titolo in grassetto (1.25rem;) nero Post[title];
-- Il paragrafo (1rem) Post[body];
-- L’applicazione deve avere due componenti Header e Footer sempre montati e deve gestire la visualizzazione del contenuto principale utilizzando il Routing Angular che a sua volta presenterà due rotte identificate dai seguenti path: “/” e “/post-detail”;
-- Al click sul quadrato, andare sulla rotta contenente il dettaglio del post;
-- Infine aggiungere un bottone nella rotta di dettaglio, per tornare alla home;
-- Creazione Header con colore #ad2a37 e testo bianco (2.5rem)
-- Creazione Footer con colore #ad2a37 e testo nero (1.2rem);
-- Link in footer che apre direttamente il client presente sul pc per inviare mail. Testo bianco;
-- Utilizzare il modulo HttpClient per fare le richieste http (preferibilmente creando un service per ogni componente).
+## Development server
 
-(1.2rem)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Pro tips
+## Code scaffolding
 
-Saranno apprezzate (ma non necessarie) le seguenti funzionalità:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Ordinamento lato client della lista in ordine alfabetico
-- Filtri di ricerca nella lista
-- Animazioni o transizioni della lista di div;
-- Organizzazione pulita e chiara della struttura del progetto.
+## Build
 
-Consegna elaborati
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-L’elaborato deve essere pushato su Git al seguente repository. Creare un branch da dev, con il proprio
+## Running unit tests
 
-nome e cognome. Pushare solo alla fine del test l’elaborato e lanciare pr verso dev.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Verranno valutati anche elaborati parziali, non verranno valutati elaborati pervenuti oltre l’orario limite.
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

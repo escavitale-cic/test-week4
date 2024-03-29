@@ -1,0 +1,16 @@
+.footer {
+    background-color: #ad2a37;
+    position: sticky;
+    height: 5.5rem;
+    bottom: 0;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.mailto {
+    color: white;
+    text-decoration: none;
+}
